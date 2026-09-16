@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+:root {
+  /* FOUNDATION */
+  --ink: #24313A;
+  --bg: #F5F7F5;
+  --surface: #FFFFFF;
+  --surface-soft: #EEF3F0;
+
+  /* TEXT */
+  --text: #24313A;
+  --text-secondary: #6F7B7B;
+  --text-disabled: #A5AEAA;
+
+  /* BRAND */
+  --blue: #8FBBC5;
+  --blue-strong: #5F98A5;
+
+  --sage: #A9C8B3;
+  --sage-strong: #6F9A7C;
+
+  --coral: #E9A58F;
+  --yellow: #E8D28D;
+
+  /* SYSTEM */
+  --success: #6F9A7C;
+  --warning: #D39A3E;
+  --danger: #C96F6F;
+
+  /* STRUCTURE */
+  --border: #DDE5E0;
+
+  /* TYPOGRAPHY */
+  --font-ui: "DM Sans", sans-serif;
+  --font-heading: "Manrope", sans-serif;
+
+  /* RADIUS */
+  --r-xs: 6px;
+  --r-sm: 9px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-bubble: 14px;
+
+  /* SHADOW */
+  --shadow-soft: 0 8px 25px rgba(36, 49, 58, 0.045);
+}
+
+body {
+  font-family: var(--font-ui);
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #D5DFD9;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #B5C4BC;
+}

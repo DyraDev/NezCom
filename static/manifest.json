@@ -1,0 +1,25 @@
+{
+  "name": "NezCom School Chat",
+  "short_name": "NezCom",
+  "description": "Platform Komunikasi Realtime & Broadcast Sekolah NezCom",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#EEF3F0",
+  "theme_color": "#5F98A5",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
